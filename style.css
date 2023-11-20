@@ -1,0 +1,92 @@
+.navbar-nav{
+    position: relative;
+    margin-left: 68%;
+}
+a img{
+    margin-right: 10px;
+}
+.background{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.text-container{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+.text-container h1 {
+    color: black;
+    font-size: 100px;
+    margin-top: -20px;
+}
+span{
+    color: gray;
+}
+.text-container p{
+    color: gray;
+    font-size: 50px;
+}
+.creative{
+    margin-top: -10px;
+}
+.hire{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+}
+.latest{
+    font-size: 40px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+.work{
+    text-align: center;
+}
+.btn{
+    border-radius: 40px;
+    width: 100px;
+    margin-top: 30px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 9px;
+    height: 80vh;
+    width: 75%;
+}
+.card{
+    background-color: red;
+}
+.card1{
+    background-image: url("1.jpg")
+}
+.card2{
+    grid-row: span 2;
+    background-image: url("2.jpg");
+}
+.card3{
+    grid-column: span 2;
+    background-image: url("3.jpg");
+}
+.card4{
+    background-image: url("4.jpg")
+}
+.card5{
+    background-image: url("5.jpg");
+}
+.card6{
+    background-image: url("6.jpg")
+}
+.intersted{
+    text-align: center;
+}
